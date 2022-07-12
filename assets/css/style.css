@@ -37,7 +37,8 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+					box-sizing: border-box;
 }
 
 :focus {
@@ -77,10 +78,9 @@ h6 {
 	padding: 1.5rem 1.5rem 2rem;
 	margin: 1.5rem;
 	border-radius: 15px;
-	background-image: linear-gradient(
-		var(--bg-card-a) 30%,
-		var(--bg-card-b) 70%
-	);
+	background: var(--bg-card-a) -webkit-gradient(linear, left top, left bottom, color-stop(30%, var(--bg-card-a)), color-stop(70%, var(--bg-card-b)));
+	background: var(--bg-card-a) -o-linear-gradient(var(--bg-card-a) 30%, var(--bg-card-b) 70%);
+	background: var(--bg-card-a) linear-gradient(var(--bg-card-a) 30%, var(--bg-card-b) 70%);
 }
 
 .card img {
@@ -145,6 +145,7 @@ h6 {
 
 /* ---- btn ---- */
 .btn-group {
+	display: -webkit-box;
 	display: flex;
 	gap: 0.2rem 0.1rem;
 	margin: 1.65rem 0 1.5rem;
@@ -158,7 +159,8 @@ h6 {
 	text-align: center;
 	cursor: pointer;
 	border: none;
-	transition: 0.25s ease-out;
+	-webkit-transition: 0.25s ease-out;
+					transition: 0.25s ease-out;
 }
 
 .btn-rank {
