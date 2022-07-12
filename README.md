@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](#)
-- Live Site URL: [Live Demo](#)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-AJ7oJJsoK9)
+- Live Site URL: [Live Demo](https://james-alderson.github.io/FrontendMentor_Interactive-rating-component/)
 
 ## My process
 
